@@ -1,27 +1,87 @@
 # MaidManagementSystem
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+### Overview
 
-## Development server
+The MaidManagementSystem is a web application developed using Angular. It aims to provide a comprehensive solution for managing maid services, enabling users to efficiently handle tasks related to maid registration, client management, and service reviews.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Features
 
-## Code scaffolding
+**Maid Registration:** Allows maids to register their profiles, including personal information, skills, and availability.
+Client Management: Enables clients to search for maids based on their preferences and requirements.
+**Dashboard:** Provides a centralized dashboard for both maids and clients to manage their profiles, bookings, and payments.
+Review System: Allows clients to leave feedback and ratings for the maid services they've received.
+**About Page:** Provides information about the MaidManagementSystem, its purpose, and how to use it.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Purpose
 
-## Build
+The MaidManagementSystem aims to streamline the process of hiring maid services by providing a user-friendly platform for both maids and clients. It seeks to enhance transparency, efficiency, and satisfaction in the maid service industry.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Folder Structure
 
-## Running unit tests
+```
+|-- app/
+|   |-- core/
+|   |   |-- authentication/              # Authentication related services and guards
+|   |   |-- http/                        # HTTP interceptors and error handling
+|   |   |-- services/                    # Core services (logger, etc.)
+|   |   |-- core.module.ts               # Core module definition
+|   |
+|   |-- shared/
+|   |   |-- components/                  # Reusable components (navbar, footer, etc.)
+|   |   |-- directives/                  # Reusable directives
+|   |   |-- pipes/                       # Reusable pipes
+|   |   |-- services/                    # Shared services
+|   |   |-- shared.module.ts             # Shared module definition
+|   |
+|   |-- modules/
+|   |   |-- user-registration/
+|   |   |   |-- components/              # User registration related components
+|   |   |   |-- services/                # User registration services
+|   |   |   |-- user-registration.module.ts  # User registration module definition
+|   |   |
+|   |   |-- dashboard/
+|   |   |   |-- components/              # Dashboard components
+|   |   |   |-- services/                # Dashboard services
+|   |   |   |-- dashboard.module.ts      # Dashboard module definition
+|   |   |
+|   |   |-- client-panel/
+|   |   |   |-- components/              # Client panel components
+|   |   |   |-- services/                # Client panel services
+|   |   |   |-- client-panel.module.ts   # Client panel module definition
+|   |   |
+|   |   |-- about/
+|   |   |   |-- components/              # About page components
+|   |   |   |-- services/                # About page services
+|   |   |   |-- about.module.ts          # About module definition
+|   |   |
+|   |   |-- review/
+|   |   |   |-- components/              # Review components
+|   |   |   |-- services/                # Review services
+|   |   |   |-- review.module.ts         # Review module definition
+|   |
+|   |-- layouts/
+|   |   |-- components/                  # Layout components (header, footer, etc.)
+|   |   |-- layouts.module.ts            # Layouts module definition
+|   |
+|   |-- app.component.html               # Root component template
+|   |-- app.component.scss               # Root component styles
+|   |-- app.component.ts                 # Root component logic
+|   |-- app.module.ts                    # App module definition
+|
+|-- assets/                              # Static assets (images, fonts, etc.)
+|-- environments/                        # Environment configuration
+|-- index.html                           # Main HTML file
+|-- styles.scss                          # Global styles
+|-- main.ts                              # Main entry point
+|-- app-routing.module.ts                # App routing module definition
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Development Server
 
-## Running end-to-end tests
+To run the development server, use the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+ng serve
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Navigate to http://localhost:4200/ in your browser. The application will automatically reload if you change any of the source files.
