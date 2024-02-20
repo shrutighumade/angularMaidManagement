@@ -19,61 +19,53 @@ The MaidManagementSystem aims to streamline the process of hiring maid services 
 ## Folder Structure
 
 ```
-|-- app/
-|   |-- core/
-|   |   |-- authentication/              # Authentication related services and guards
-|   |   |-- http/                        # HTTP interceptors and error handling
-|   |   |-- services/                    # Core services (logger, etc.)
-|   |   |-- core.module.ts               # Core module definition
+|-- app
 |   |
-|   |-- shared/
-|   |   |-- components/                  # Reusable components (navbar, footer, etc.)
-|   |   |-- directives/                  # Reusable directives
-|   |   |-- pipes/                       # Reusable pipes
-|   |   |-- services/                    # Shared services
-|   |   |-- shared.module.ts             # Shared module definition
+|   |-- shared
+|   |   |-- components
+|   |   |-- services/
+|   |   |-- shared.module.ts
 |   |
 |   |-- modules/
-|   |   |-- user-registration/
-|   |   |   |-- components/              # User registration related components
-|   |   |   |-- services/                # User registration services
-|   |   |   |-- user-registration.module.ts  # User registration module definition
-|   |   |
 |   |   |-- dashboard/
-|   |   |   |-- components/              # Dashboard components
-|   |   |   |-- services/                # Dashboard services
-|   |   |   |-- dashboard.module.ts      # Dashboard module definition
+|   |   |   |-- components/
+|   |   |   |-- services/
+|   |   |   |-- dashboard.module.ts
 |   |   |
 |   |   |-- client-panel/
-|   |   |   |-- components/              # Client panel components
-|   |   |   |-- services/                # Client panel services
-|   |   |   |-- client-panel.module.ts   # Client panel module definition
+|   |   |   |-- components/
+|   |   |   |-- services/
+|   |   |   |-- client-panel.module.ts
+|   |   |
+|   |   |-- user-registration/
+|   |   |   |-- components/
+|   |   |   |-- services/
+|   |   |   |-- user-registration.module.ts
 |   |   |
 |   |   |-- about/
-|   |   |   |-- components/              # About page components
-|   |   |   |-- services/                # About page services
-|   |   |   |-- about.module.ts          # About module definition
+|   |   |   |-- components/
+|   |   |   |-- services/
+|   |   |   |-- about.module.ts
 |   |   |
 |   |   |-- review/
-|   |   |   |-- components/              # Review components
-|   |   |   |-- services/                # Review services
-|   |   |   |-- review.module.ts         # Review module definition
+|   |   |   |-- components/
+|   |   |   |-- services/
+|   |   |   |-- review.module.ts
 |   |
 |   |-- layouts/
-|   |   |-- components/                  # Layout components (header, footer, etc.)
-|   |   |-- layouts.module.ts            # Layouts module definition
+|   |   |-- components/
+|   |   |-- layouts.module.ts
 |   |
-|   |-- app.component.html               # Root component template
-|   |-- app.component.scss               # Root component styles
-|   |-- app.component.ts                 # Root component logic
-|   |-- app.module.ts                    # App module definition
+|   |-- app.component.html
+|   |-- app.component.scss
+|   |-- app.component.ts
+|   |-- app.module.ts
 |
-|-- assets/                              # Static assets (images, fonts, etc.)
-|-- environments/                        # Environment configuration
-|-- index.html                           # Main HTML file
-|-- styles.scss                          # Global styles
-|-- main.ts                              # Main entry point
-|-- app-routing.module.ts                # App routing module definition
+|-- assets/
+|-- index.html
+|-- main.ts
+|-- styles.scss
+|-- app-routing.module.ts
 ```
 
 ### Development Server
