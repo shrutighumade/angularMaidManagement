@@ -23,37 +23,38 @@ The MaidManagementSystem aims to streamline the process of hiring maid services 
 |   |
 |   |-- shared
 |   |   |-- components
-|   |   |-- services/
+|   |   |-- services
 |   |   |-- shared.module.ts
 |   |
-|   |-- modules/
-|   |   |-- dashboard/
-|   |   |   |-- components/
-|   |   |   |-- services/
+|   |-- modules
+|   |   |-- dashboard
+|   |   |   |-- components
+|   |   |   |-- services
 |   |   |   |-- dashboard.module.ts
 |   |   |
-|   |   |-- client-panel/
-|   |   |   |-- components/
-|   |   |   |-- services/
+|   |   |-- client-panel
+|   |   |   |-- components
+|   |   |   |-- services
 |   |   |   |-- client-panel.module.ts
 |   |   |
-|   |   |-- user-registration/
-|   |   |   |-- components/
-|   |   |   |-- services/
+|   |   |-- user-registration
+|   |   |   |-- components
+|   |   |   |-- services
 |   |   |   |-- user-registration.module.ts
 |   |   |
-|   |   |-- about/
-|   |   |   |-- components/
-|   |   |   |-- services/
+|   |   |-- about
+|   |   |   |-- components
+|   |   |   |-- services
 |   |   |   |-- about.module.ts
 |   |   |
-|   |   |-- review/
-|   |   |   |-- components/
-|   |   |   |-- services/
+|   |   |-- review
+|   |   |   |-- components
+|   |   |   |-- services
 |   |   |   |-- review.module.ts
 |   |
-|   |-- layouts/
-|   |   |-- components/
+|   |-- layouts
+|   |   |-- components
+|   |   |-- services
 |   |   |-- layouts.module.ts
 |   |
 |   |-- app.component.html
@@ -61,7 +62,7 @@ The MaidManagementSystem aims to streamline the process of hiring maid services 
 |   |-- app.component.ts
 |   |-- app.module.ts
 |
-|-- assets/
+|-- assets
 |-- index.html
 |-- main.ts
 |-- styles.scss
