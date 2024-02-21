@@ -23,6 +23,21 @@ The MaidManagementSystem aims to streamline the process of hiring maid services 
 |   |
 |   |-- shared
 |   |   |-- components
+|   |   |   |-- footer
+|   |   |   |   |-- footer.component.html
+|   |   |   |   |-- footer.component.scss
+|   |   |   |   |-- footer.component.ts
+|   |   |   |
+|   |   |   |-- hero
+|   |   |   |   |--hero.component.html
+|   |   |   |   |--hero.component.scss
+|   |   |   |   |--hero.component.ts
+|   |   |   |
+|   |   |   |-- navbar
+|   |   |   |   |--navbar.component.html
+|   |   |   |   |--navbar.component.scss
+|   |   |   |   |--navbar.component.ts
+|   |   |
 |   |   |-- services
 |   |   |-- shared.module.ts
 |   |
@@ -54,6 +69,11 @@ The MaidManagementSystem aims to streamline the process of hiring maid services 
 |   |
 |   |-- layouts
 |   |   |-- components
+|   |   |-- main-layout
+|   |   |   |-- main-layout.component.html
+|   |   |   |-- main-layout.component.scss
+|   |   |   |-- main-layout.component.ts
+|   |   |
 |   |   |-- services
 |   |   |-- layouts.module.ts
 |   |
