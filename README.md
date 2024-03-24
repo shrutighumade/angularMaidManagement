@@ -1,4 +1,5 @@
 # MaidManagementSystem
+# MaidManagementSystem
 
 ### Overview
 
@@ -54,6 +55,15 @@ The MaidManagementSystem aims to streamline the process of hiring maid services 
 |   |   |
 |   |   |-- user-registration
 |   |   |   |-- components
+|   |   |       |-- login 
+|   |   |       |   |--login.components.html  
+|   |   |       |   |--login.components.scss 
+|   |   |       |   |--login.components.ts 
+|   |   |       |-- registration 
+|   |   |           |--registration.components.html  
+|   |   |           |--registration.components.scss 
+|   |   |           |--registration.components.ts 
+|   |   |       
 |   |   |   |-- services
 |   |   |   |-- user-registration.module.ts
 |   |   |
